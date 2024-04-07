@@ -1,0 +1,148 @@
+/*GENERAL*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*HEADER*/
+
+.header{
+    max-width: 100%;
+    height: 75px;
+    background-color: #242423;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.header .logo img{
+    width: 180px;
+    height: auto;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.header .links{
+    list-style: none;
+}
+
+.header .links li{
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.4s;
+}
+
+.header .links li:hover{
+    transform: scale(1.2);
+}
+
+.header .links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.buscador{
+    width: 45%;
+}
+
+.buscador label img{
+   max-width: 10%;
+   width: 20px;
+   height: auto;
+   cursor: pointer;
+}
+
+.buscador #busqueda{
+    width: 90%;
+    border-radius: 25px;
+    height: 35px;
+    background: #fff;
+    font-size: 15px;
+    padding: 6px 30px 6px 15px;
+    
+}
+
+.buscador #busqueda:focus{
+    outline: none;
+}
+
+.buscador #busqueda::placeholder{
+    color: #808080;
+    font-size: 15px;
+}
+
+.buscador form{
+    position: relative;
+}
+
+.header nav ul{
+    color: #fff;
+}
+
+/*BODY*/
+
+body{
+    background-color: #fff;
+}
+
+ .frase h1{
+    font-size: 35px;
+    text-align: center;
+    color: #242423;
+    padding: 10px;
+
+}
+
+.section1{
+    margin: 0px 25px;
+}
+
+.section1 .imagenP{
+    text-align: center;
+    background-image: url(retouch_2024040315111197.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px 20px;
+}
+
+.section2{
+    margin: 90px 25px 90px 25px;
+}
+
+.frase h2{
+    font-size: 30px;
+    text-align: center;
+    color: #242423;
+    padding: 10px;
+    padding-bottom: 35px;
+
+}
+
+.section2 .caja{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section2 .caja .ropa{
+    width: 100%;
+    height: 415px;
+    margin: 0px 20px;
+    background-color: lightgray;
+}
