@@ -25,6 +25,13 @@ html{
     padding: 25px;
 }
 
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
 .header .logo img{
     width: 180px;
     height: auto;
@@ -38,8 +45,21 @@ html{
 
 .header .links li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
     transition: all 0.4s;
+}
+
+#l{
+    margin-bottom: 5px;
+}
+
+#l a{
+    font-size: 18px;
+}
+
+.links li svg{
+    width: 27px;
+    height: 27px;
 }
 
 .header .links li:hover{
@@ -49,7 +69,7 @@ html{
 .header .links a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .buscador{
@@ -57,9 +77,9 @@ html{
 }
 
 .buscador label img{
-   max-width: 10%;
-   width: 20px;
-   height: auto;
+    max-width: 10%;
+   width: 15px;
+   height: 15px;
    cursor: pointer;
 }
 
@@ -82,12 +102,15 @@ html{
     font-size: 15px;
 }
 
+
+
 .buscador form{
     position: relative;
 }
 
 .header nav ul{
     color: #fff;
+    justify-content: center;
 }
 
 /*BODY*/
@@ -108,14 +131,9 @@ img{
 
 }
 
-.section1{
-    margin: 0px 25px;
-}
-
 .section1 .imagenP{
-    margin-top: 20px;
     text-align: center;
-    background-image: url(Imagenes/retouch_2024040315111197.jpg);
+    background-image: url(Imagenes/IMG_20240409_150348.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,11 +141,12 @@ img{
 }
 
 .section2{
-    margin: 65px 25px 0px 25px;
+    margin: 60px 25px 0px 25px;
 }
 
 .frase h2{
-    font-size: 30px;
+    font-size: 45px;
+    font-weight: 300;
     text-align: center;
     color: #242423;
     padding: 10px;
@@ -143,10 +162,12 @@ img{
 .item{
     border-radius: 10px;
     margin: 50px;
+    transition: all .5s;
 }
 
 .item:hover{
-    box-shadow: 0 10px 20px #242423;
+    box-shadow: 0 0 4px #242423;
+    transform: scale(1.2);
 }
 
 .info{
@@ -155,12 +176,21 @@ img{
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    gap: 5px;
+    gap: 10px;
 }
 
 .precio{
     font-size: 18px;
     font-weight: 900;
+}
+
+.info a{
+    text-decoration: none;
+    color: #242423;
+}
+
+.info h3{
+    font-weight: 500;
 }
 
 .info button{
@@ -176,28 +206,84 @@ img{
     width: 100%;
     height: 400px;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
-    transition: all .5s;
+    border-radius: 10px 10px 0 0;   
 }
 
 .item figure{
     overflow: hidden;
 }
 
-.item:hover img{
-    transform: scale(1.2);
-}
-
-.section3{
-    margin: 0px 25px;
-}
-
 .section3 .imagenP{
-    margin-top: 20px;
     text-align: center;
-    background-image: url(https://i8.amplience.net/i/liberty/y2k-vs-70s-fashion-trends-hero?fmt=auto&qlt=75);
+    background-image: url(Imagenes/IMG_20240409_150406.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 350px 20px;
+}
+
+/*FOOTER*/
+
+.footer{
+    width: 100%;
+    background-color: #242423;
+}
+
+.footer .grupo1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+   
+}
+
+.caja{
+    width: 33%;
+    height: 80px;
+    text-align: center;
+    margin: 20px;
+    padding: 0px;
+}
+
+.caja h2{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin: 30px 0px 15px 0px;
+}
+
+.caja p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer .grupo2{
+    background-color: #242423;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.redsocial{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0px 150px;
+    align-items: center;
+    width: 100%
+}
+
+.redsocial a{
+    width: 30%;
+    height: auto;
+    align-items: center;
+
+}
+
+.red{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
 }
