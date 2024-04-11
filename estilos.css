@@ -62,6 +62,11 @@ html{
     height: 27px;
 }
 
+.links li i{
+    width: 27px;
+    height: 27px;
+}
+
 .header .links li:hover{
     transform: scale(1.2);
 }
@@ -138,6 +143,18 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 350px 20px;
+}
+
+.section1 .imagenP h1{
+    font-size: 110px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section1 .imagenP h3{
+    font-size: 80px;
+    font-weight: 300;
+    color: #fff;
 }
 
 .section2{
@@ -220,6 +237,18 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 350px 20px;
+}
+
+.section3 .imagenP h1{
+    font-size: 100px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section3 .imagenP h3{
+    font-size: 80px;
+    font-weight: 300;
+    color: #fff;
 }
 
 /*FOOTER*/
